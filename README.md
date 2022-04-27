@@ -3,7 +3,7 @@
   (<a href="https://cstayyab.com/" target="_blank">CSTayyab.com</a>)
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./images/readme-img1.png" />
 </div>
 
 <br/>
