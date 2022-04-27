@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import CommitMap from "./CommitMap";
 
 function About() {
   return (
@@ -45,7 +45,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        <CommitMap />
       </Container>
     </Container>
   );

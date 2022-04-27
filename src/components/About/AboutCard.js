@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { GiCook, GiPhotoCamera, GiHiking } from "react-icons/gi";
+import { Spoiler } from "react-spoiler-tag";
 
 function AboutCard() {
   return (
@@ -8,30 +9,24 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            Hi Everyone, I am <span className="purple">Muhammad Tayyab Sheikh </span>
+            from <span className="purple"> Lahore, Pakistan.</span>
+            <br />I am (<Spoiler text="pretending to be" textColor="#c770f0" hiddenColor="#c770f0" revealedColor="transparent" />) a professional <span className="purple">Software Developer</span> in Industry for about 3 years now.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <GiPhotoCamera size={"32px"} /> Photography
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <GiCook size={"32px"} /> Cooking
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <GiHiking size={"32px"} /> Hiking
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>

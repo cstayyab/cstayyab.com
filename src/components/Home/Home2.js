@@ -10,36 +10,37 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  let tweetHref = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(`ඞ Imposter Alert!\n@CSTayyab has been pretending to be a Software Developer for about ${(new Date()).getFullYear()-2019} years now.\nCheck his work on https://cstayyab.com`)
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple"> EXPOSE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I started learning computer programming in my early teenage and I have been pretending to be 
+              (<a className="purple" href={tweetHref} target="_blank" rel="noreferrer">
+                Report me on Twitter</a>) a professional <span className="purple">Software Developer</span> in the industry for almost <span className="purple">3 years</span> now. 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I have been able to write the infamous <span className="purple">Hello, World!</span> in a few languages including <br/>
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Javascript, Python and PHP </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I take interest in building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Web Technologies and Products </b> along with some {" "}<br/>
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Mobile App Development.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              using <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -48,7 +49,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Svelte</b>
               </i>
             </p>
           </Col>
@@ -67,7 +68,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/cstayyab"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/CSTayyab"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/cstayyab/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +98,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/cstayyab/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
