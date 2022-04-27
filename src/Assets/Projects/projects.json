@@ -1,0 +1,23 @@
+[
+    {
+        "imgPath": "codeEditor.png",
+        "isBlog": false,
+        "title": "URL NSFW Detector",
+        "description": "A simple URL NSFW Detector that uses the Prebuilt model to detect if a URL is NSFW or not using the Screenshot of the first render of the page",
+        "link": "https://is-this-url-nsfw.herokuapp.com/"
+    },
+    {
+        "imgPath": "express-postgres-login.png",
+        "title": "Minimal User Handling using Express.js and PostgreSQL",
+        "description": "A minimal user handling app using Express.js and PostgreSQL",
+        "isBlog": true,
+        "link": "https://dev.to/cstayyab/minimal-user-management-using-express-and-postgresql-2bh9"
+    },
+    {
+        "imgPath": "wait-for-it.webp",
+        "title": "wait-for-it.js",
+        "description": "A JavaScript Library that allows you to execute function when a certain element gets added to the document",
+        "isBlog": true,
+        "link": "https://dev.to/cstayyab/let-me-wait-for-it-and-call-you-back-said-wait-for-it-js-50h1"
+    }
+]
