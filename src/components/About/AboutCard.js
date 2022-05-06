@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Card from "react-bootstrap/Card";
 import { GiCook, GiPhotoCamera, GiHiking } from "react-icons/gi";
 import { Spoiler } from "react-spoiler-tag";
@@ -18,7 +19,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <GiPhotoCamera size={"32px"} /> Photography
+            <a href={"https://www.clickasnap.com/cstayyab"} target="_blank"  rel="noopener noreferrer" style={{textDecoration: 'none', color: 'white'}}><GiPhotoCamera size={"32px"} /> Photography 🔗 </a>
             </li>
             <li className="about-activity">
               <GiCook size={"32px"} /> Cooking
