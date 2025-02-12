@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Toaster } from '@/components/ui/toaster'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: 'Muhammad Tayyab Sheikh aka CSTayyab - Full Stack Web & Mobile App Developer',
@@ -27,6 +28,7 @@ export default function RootLayout({
         <Toaster />
         {children}
       </body>
+      <GoogleAnalytics gaId={process.env.GA4ID ?? ''} />
     </html>
   )
 }
