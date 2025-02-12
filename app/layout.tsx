@@ -14,7 +14,32 @@ export const metadata: Metadata = {
     }
   ],
   creator: 'Muhammad Tayyab Sheikh',
-  keywords: 'developer, software engineer, CS Tayyab, cstayyab'
+  keywords: 'developer, software engineer, CS Tayyab, cstayyab',
+  openGraph: {
+    type: 'profile',
+    username: 'cstayyab',
+    firstName: 'Muhammad Tayyab',
+    lastName: 'Sheikh',
+    url: 'https://cstayyab.com',
+    emails: [
+      "me@cstayyab.com",
+      "hire@cstayyab.com",
+    ],
+    gender: 'Male',
+    images: [
+      'https://apna.link/CSTayyabAvatar'
+    ],
+    description: 'Software Engineer who is passionate about creating seamless experiences across web and mobile platforms. Specializing in React, React Native, Node.js, and cloud technologies.',
+    countryName: 'Pakistan',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    creator: 'Muhammad Tayyab Sheikh',
+    creatorId: '@CSTayyab',
+    images: [
+      'https://apna.link/CSTayyabAvatar'
+    ],
+  }
 }
 
 export default function RootLayout({
