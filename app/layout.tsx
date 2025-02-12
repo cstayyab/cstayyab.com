@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   applicationName: 'CSTayyab Portfolio',
   authors: [
     {
-      name: 'Muhammad Tayyab Sheikh aka CSTayyab',
-      url: 'https://linkedin.com/in/CSTayyab',
+      name: 'Muhammad Tayyab Sheikh',
+      url: 'https://cstayyab.com',
     }
   ],
-  creator: 'Muhammad Tayyab Sheikh aka CSTayyab',
+  creator: 'Muhammad Tayyab Sheikh',
   keywords: 'developer, software engineer, CS Tayyab, cstayyab'
 }
 
