@@ -5,7 +5,7 @@ import Projects from "@/components/Projects"
 import Experience from "@/components/Experience"
 // import VolunteerExperience from "@/components/VolunteerExperience"
 import Contact from "@/components/Contact"
-import type {Person, WithContext, ProfilePage} from 'schema-dts';
+import type { Person, WithContext, ProfilePage } from 'schema-dts';
 
 const cstayyab: WithContext<Person> = {
   '@context': 'https://schema.org',
@@ -86,7 +86,7 @@ const cstayyab: WithContext<Person> = {
 
 }
 
-const profilePage : WithContext<ProfilePage> = {
+const profilePage: WithContext<ProfilePage> = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   mainEntity: cstayyab,
