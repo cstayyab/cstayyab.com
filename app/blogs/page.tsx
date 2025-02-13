@@ -68,32 +68,30 @@ export default async function BlogsPage() {
                 {blogs.length > 0 ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
                         {blogs.map((blog) => (
-                            <div>
-                                <Card key={blog.id} className="flex flex-col">
-                                    <CardHeader>
-                                        {blog.image && <img
-                                            src={blog.image || "/placeholder.svg"}
-                                            alt={blog.title}
-                                            className="w-full h-48 object-cover rounded-t-lg"
-                                        />}
-                                        <CardTitle className="text-xl mb-2 line-clamp-3"><a href={blog.url} target="_blank">{blog.title}</a></CardTitle>
-                                        <div className="flex justify-between items-center text-sm text-muted-foreground">
-                                            <span>{new Date(blog.publishedAt).toLocaleDateString()}</span>
-                                            {/* <Badge>{blog.source}</Badge> */}
-                                        </div>
-                                    </CardHeader>
-                                    <CardContent className="flex-grow">
-                                        <p className="text-muted-foreground">{blog.summary}</p>
-                                    </CardContent>
-                                    <CardFooter>
-                                        <Button asChild>
-                                            <a href={blog.url} target="_blank" rel="noopener noreferrer">
-                                                Read More <ExternalLinkIcon className="ml-2 h-4 w-4" />
-                                            </a>
-                                        </Button>
-                                    </CardFooter>
-                                </Card>
-                            </div>
+                            <Card key={blog.id} className="flex flex-col">
+                                <CardHeader>
+                                    {blog.image && <img
+                                        src={blog.image || "/placeholder.svg"}
+                                        alt={blog.title}
+                                        className="w-full h-48 object-cover rounded-t-lg"
+                                    />}
+                                    <CardTitle className="text-xl mb-2 line-clamp-2"><a href={blog.url} target="_blank">{blog.title}</a></CardTitle>
+                                    <div className="flex justify-between items-center text-sm text-muted-foreground">
+                                        <span>{new Date(blog.publishedAt).toLocaleDateString()}</span>
+                                        {/* <Badge>{blog.source}</Badge> */}
+                                    </div>
+                                </CardHeader>
+                                <CardContent className="flex-grow">
+                                    <p className="text-muted-foreground">{blog.summary}</p>
+                                </CardContent>
+                                <CardFooter>
+                                    <Button asChild>
+                                        <a href={blog.url} target="_blank" rel="noopener noreferrer">
+                                            Read More <ExternalLinkIcon className="ml-2 h-4 w-4" />
+                                        </a>
+                                    </Button>
+                                </CardFooter>
+                            </Card>
                         ))}
                     </div>
                 ) : (
