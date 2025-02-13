@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     images: [
       'https://apna.link/CSTayyabAvatar'
     ],
+  },
+  verification: {
+    google: '1EF6Z63u4zhPPvD0LnAv2UVR88R2z0YMvcmhol2txwk'
   }
 }
 
