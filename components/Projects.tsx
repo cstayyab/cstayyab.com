@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Envoy Pharmacy Portal",
     description: "A Specialty Pharmacy Therapy Management SaaS solution optimizing workflows, communication, and real-time analytics for better patient care.",
-    image: "/1738308335549_envoy_patient_snapshot_blurred.png",
+    image: "/1738308335549_envoy_patient_snapshot_blurred.webp",
     tags: ["Backbone.js", "Node.js", "PostgreSQL", "Docker", "RabbitMQ", "Python", "Power BI"],
     // github: "https://github.com/CSTayyab/e-commerce-platform",
     live: "https://envoymobile.com",
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "ThePrimeFit: Lifestyle",
     description: "ThePrimeFit: Lifestyle is a coaching app that helps users develop healthy habits with personalized workouts, gym and home training, and weight and calorie tracking.",
-    image: "/primefit-lifestyle.png",
+    image: "/primefit-lifestyle.webp",
     tags: ["React Native", "Firebase", "React Navigation", "Redux", "TypeScript"],
     company: "ThePrimeFit",
     type: "professional",
@@ -43,7 +43,7 @@ const projects = [
   {
     title: "Apna.Link",
     description: "A URL Shortner with analytics tracking.",
-    image: "/apna-link.png",
+    image: "/apna-link.webp",
     tags: ["Next.js", "PostgreSQL", "Supabase", "Tailwind CSS"],
     live: "https://apna.link",
     liveLabel: 'Product Website',
@@ -53,7 +53,7 @@ const projects = [
   {
     title: "TLDs Explorer",
     description: "A real-time tracking and notification service for newly recognized Top-Level Domains (TLDs) using IANA data.",
-    image: "/tlds-explorer.png",
+    image: "/tlds-explorer.webp",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Whois Protocol"],
     live: "https://tlds-explorer.vercel.app",
     type: "hobby",
