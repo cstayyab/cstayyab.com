@@ -52,7 +52,9 @@ export const cstayyab: WithContext<Person> = {
       "https://x.com/CSTayyab",
       "https://instagram.com/CSTayyab",
       "https://facebook.com/CSTayyab",
-      "https://stackoverflow.com/users/7337013/cstayyab"
+      "https://stackoverflow.com/users/7337013/cstayyab",
+      "https://dev.to/@cstayyab",
+      "https://cstayyab.medium.com",
     ],
     description: 'Software Engineer who is passionate about creating seamless experiences across web and mobile platforms. Specializing in React, React Native, Node.js, and cloud technologies.',
     knowsLanguage: [

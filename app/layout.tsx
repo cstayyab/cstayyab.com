@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Toaster } from '@/components/ui/toaster'
 import { GoogleAnalytics } from '@next/third-parties/google'
+import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Muhammad Tayyab Sheikh aka CSTayyab - Full Stack Web & Mobile App Developer',
@@ -29,7 +30,6 @@ export const metadata: Metadata = {
     images: [
       'https://apna.link/CSTayyabAvatar'
     ],
-    description: 'Software Engineer who is passionate about creating seamless experiences across web and mobile platforms. Specializing in React, React Native, Node.js, and cloud technologies.',
     countryName: 'Pakistan',
   },
   twitter: {
@@ -54,7 +54,16 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Toaster />
-        {children}
+        <div className="min-h-screen bg-background text-foreground">
+          <Header />
+          <main className="container mx-auto px-4 pt-20">
+            {children}
+          </main>
+
+          <footer className="container mx-auto px-4 py-8 mt-16 text-center text-sm text-muted-foreground">
+            © {new Date().getFullYear()} Muhammad Tayyab Sheikh (CSTayyab). All rights reserved.
+          </footer>
+        </div>
       </body>
       <GoogleAnalytics gaId={process.env.GA4ID ?? ''} />
     </html>
